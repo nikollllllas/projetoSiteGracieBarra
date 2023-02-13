@@ -62,8 +62,17 @@ main > div > h1, h2, p {
     padding-top: 10px;
     min-width: 600px;
     max-width: 1200px;
-    
 }
+
+img {
+    max-width: 200px;
+}
+
+div.programs a {
+    display: flex;
+    align-items: center;
+}
+
 
 div.blue {
     background-color: var(--bg-color-blue);
